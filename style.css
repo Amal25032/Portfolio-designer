@@ -1,0 +1,211 @@
+body{
+    background-color: #e0dad1;
+}
+
+.justify-content-end{
+    background-color: #252e2f;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 100px;
+    border: 1.5px solid black ;
+}
+.justify-content-end a{
+    color: white;
+    font-size: 40px;
+}
+.nav-item:hover{
+    border: 1.5px solid rgb(245, 243, 243)
+}
+
+.circular-image {
+    width: 400px; 
+    height: 400px; 
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: 5px solid white; 
+    position: relative;
+}
+
+.circular-image img {
+    width: 100%;
+    height: auto;
+}
+.heading {
+    position: absolute;
+    top: 100px;
+    right: 870px; 
+    text-align: right; 
+}
+
+h1, h2 {
+    margin: 0; 
+    color: black;
+}
+
+.heading h1 {
+    font-family: serif;
+    font-size: 6rem;
+}
+
+.heading h2 {
+    font-family: serif;
+    font-size: 4rem;
+}
+
+
+
+.my-paragraph {
+    position: absolute; 
+    margin-top: -250px;
+    margin-left: 250px;
+    font-size: 30px;   
+    color: black;
+
+}
+
+.name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    margin-left: 60px;
+}
+.name h1{
+    font-size: 60px;
+}
+.bg-body-tertiary{
+    margin-left: 600px;
+
+    
+}
+.form-control {
+    background-color: transparent; 
+    border: 1px solid #ced4da; 
+    color: black; 
+    border: 2px solid #41454a73; 
+    font-size: 20px; 
+    height: 50px;
+    width: 300px; 
+}
+
+.form-control::placeholder {
+    color: rgba(0, 0, 0, 0.5); 
+}
+
+.title{
+    margin-left: 80rem;
+    margin-top: -70px;
+    
+    border-top: 2px solid #b8b3b3ec;
+    border-bottom: 2px solid #b8b3b3ec;
+    padding: 15px ; 
+    width: 80%; /* Set width of the title */
+    max-width: 420px; /* Optional: Limit the maximum width */
+    position: relative; /* Position for potential adjustments */
+    margin-right: auto; /* Center the title horizontally */
+    margin-left: 69rem; /* Center the title horizontally */
+}
+
+.title h1{
+    font-size: 3rem;
+}
+
+.custom-card {
+    background-color: #ddd8ce;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 50px;
+    height: 45rem;
+    border: solid rgba(34, 33, 33, 0.644);
+}
+.custom-card img{
+    height: 25rem;
+}
+
+
+.card2 {
+    margin-left: 40rem;
+    background-color: #e9e5df;
+    border: 1px solid #0e0101;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: -800px;
+    height: 20rem;
+  /*  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  Shadow effect */
+}
+
+.card3{
+    margin-left: 40rem;
+    margin-top: 100px;
+    border: 1px solid #0e0101;
+    border-radius: 20px;
+}
+
+.card4{
+    margin-left: 70rem;
+    margin-top: -800px;
+    width: 18rem;
+    height: 25rem;
+    border: 2px solid #0e0101;
+    position: relative;
+    border-radius: 20px;
+}
+
+.top-right-icon {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    font-size: 20px; 
+    color: #333;
+}
+
+.card5{
+    width: 18rem;
+    height: 25rem;
+    margin-left: 90rem;
+    margin-top: -800px;
+    position: relative;
+    border: 2px solid #0e0101;
+    border-radius: 20px;
+}
+
+
+.top-right-icon {
+    position: absolute;
+    top: 10px; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+    font-size: 20px; /* Size of the icon */
+    color: #333; /* Color of the icon */
+}
+.card6{
+    width: 18rem;
+    height: 25rem;
+    margin-left: 69.5rem;
+    margin-top: 60px;
+    position: relative;
+    border: 2px solid #0e0101;
+    border-radius: 20px;
+}
+
+.card7{
+    width: 18rem;
+    height: 25rem;
+    margin-left: 90rem;
+    margin-top: -400px;
+    position: relative;
+    border: 2px solid #0e0101;
+    border-radius: 20px;
+}
+.card-img-top{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.footer {
+    border-top: 2px solid #151414; /* Line color */
+    padding: 20px;
+    text-align: center;
+}
+
